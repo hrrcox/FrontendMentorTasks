@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js"></script>
+  <title>Frontend Mentor | Article preview component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <article id="card">
+    <img class="hero" src="/images/drawers.jpg"
+      alt="">
+    <div class="article-content">
+      <h2>Shift the overall look and feel by adding these wonderful
+        touches to furniture in your home</h2>
+
+      <p class="description">Ever been in a room and felt like something was missing? Perhaps
+        it felt slightly bare and uninviting. I've got some simple tips
+        to help you make any room feel complete.</p>
+    </div>
+    <div class="supplement">
+      <div class="user-profile">
+        <img class="avatar" src="/images/avatar-michelle.jpg" alt="">
+        <div>
+          <p class="sr-only">Written by:</p>
+          <p class="user-name">Michelle Appleton</p>
+          <p class="date">28 Jun 2020</p>
+        </div>
+      </div>
+      <div class="sharing">
+        <button class="share" id="share-btn" aria-expanded="false" aria-controls="share-options">Share</button>
+      </div>
+    </div>
+    <div class="share-expand" id="share-options">
+      <h3>Share on:</h3>
+      <div role="list" class="btn-list">
+        <div role="listitem">
+          <button>Facebook</button>
+        </div>
+        <div role="listitem">
+          <button>Twitter</button>
+        </div>
+        <div role="listitem">
+          <button>Pinterest</button>
+        </div>
+      </div>
+    </div>
+  </article>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/hrrcox">han</a>.
+  </div>
+</body>
+</html>
